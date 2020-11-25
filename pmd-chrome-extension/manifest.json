@@ -1,0 +1,19 @@
+  {
+    "name": "IPTC Photo Metadata inspector",
+    "version": "0.1",
+    "description": "Right-click on any image and select \"View IPTC image metadata\". IPTC's GetPMD tool shows all metadata embedded in the image.",
+    "icons": {
+      "16": "iptc_icon16.png",
+      "32": "iptc_icon32.png",
+      "48": "iptc_icon48.png",
+      "128": "iptc_icon128.png"
+    },
+    "permissions": [
+      "contextMenus"
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "manifest_version": 2
+  }
